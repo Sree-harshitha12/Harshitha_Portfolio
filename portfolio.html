@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul class="navbar">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#languages">Languages Known</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <h1>Career Objective</h1>
+        <p>As a recent graduate in computer science, I'm searching for an entry level position in 
+            software development where I can employ both creativity and the concepts I learned in college.</p>
+    </section>
+
+    <!-- Education Section -->
+     <section id="education" class="education-section">
+        <h1>Education</h1>
+        <h4>Bachelor of Technology</h4>
+        <p>Vignan's Nirula Institute of Technology and Science for Women </p>
+        <p>GPA:8.0</p>
+        <h4>Intermediate</h4>
+        <p>Narayana Junior College</p>
+        <p>GPA:9.67</p>
+        <h4>SSC</h4>
+        <p>Kennedy High School</p>
+        <p>GPA:10.0</p>
+     </section>
+
+    <!-- Languages Section -->
+    <section id="language" class="language-section">
+        <h2>Languages Known</h2>
+        <div class="language-grid">
+            <div class="language">English</div>
+            <div class="language">Hindi</div>
+            <div class="language">Telugu</div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">Python</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">Face Recognition for Security Purpose Using Python</div>
+            <div class="project-card">Autism Prediction Using Machine Learning</div>
+            <div class="project-card">Landing Page Using HTML & CSS</div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form class="contact-form" action="https://formspree.io/f/xjkbqaap" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="_replyto" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+</body>
+</html>
